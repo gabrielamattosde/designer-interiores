@@ -55,24 +55,23 @@ main {
 }
 .info2 {
     grid-column: span 4;
-    grid-row: span 6;
-      
+    grid-row: span 6      
 }
 .info3{
     grid-column: span 4;
     grid-row:span 6;
 }
 .figure1{
-    grid-template: 2;
+    grid-template: 2;  
 }
 .figure2{
-    grid-area: 1;
+    grid-area: 1;   
 }
 .figure5{
-    grid-area: 6;
+    grid-area: 6; 
 }
 .figure6{
-    grid-area:16; 
+    grid-area:16;  
 }
 .figure9{
     grid-area:14;
@@ -81,13 +80,11 @@ main {
 }
 .figure10{
     grid-area: 6;  
+    
 }
 .figure11{
-    grid-area:14;
-   
+    grid-area:14;  
 }
-
-
 .info1, .info2, .info3 {
     padding: 40px;
     background-color: #333;
