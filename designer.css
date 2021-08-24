@@ -46,40 +46,37 @@ header ul li{
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center
 }
 .info1 {
     grid-column: span 4;
     grid-row: span 4;
 }
 .info2 {
-    grid-column: span 1;
+    grid-column: span 3;
     grid-row: span 6;   
 }
-.figure3{
-    grid-column: span 3;
-    grid-area: 2;
+.figure1{
+    grid-template: 2;
 }
-.figure4{
-    grid-column: span 3;
+.figure2{
     grid-area: 1;
 }
 .figure5{
-    grid-column: span 4;
-    grid-column-end:-1;
+    grid-area: 8;
 }
 .figure6{
-    grid-column: span 2;
+    grid-area:5;
 }
 .figure7{
-    grid-column: span 3;
+    grid-area:5;
 }
 .figure8{
-    grid-column: 4;
-    margin-left: -90px;
+    grid-area: 6;
 }
-
-.info1, .info2{
+.figure10{
+    
+}
+.info1, .info2, .info3 {
     padding: 40px;
     background-color: #333;
     color: white;
