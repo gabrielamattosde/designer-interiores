@@ -46,14 +46,20 @@ header ul li{
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: baseline;
 }
 .info1 {
     grid-column: span 4;
     grid-row: span 4;
 }
 .info2 {
-    grid-column: span 3;
-    grid-row: span 6;   
+    grid-column: span 4;
+    grid-row: span 6;
+      
+}
+.info3{
+    grid-column: span 4;
+    grid-row:span 6;
 }
 .figure1{
     grid-template: 2;
@@ -62,20 +68,25 @@ main {
     grid-area: 1;
 }
 .figure5{
-    grid-area: 8;
+    grid-area: 6;
 }
 .figure6{
     grid-area:5;
-}
-.figure7{
-    grid-area:5;
-}
-.figure8{
-    grid-area: 6;
-}
-.figure10{
     
 }
+.figure9{
+    grid-area:14;
+    
+}
+.figure10{
+    grid-area: 6;  
+}
+.figure11{
+    grid-area: 14;
+    grid-row:span 6;
+}
+
+
 .info1, .info2, .info3 {
     padding: 40px;
     background-color: #333;
