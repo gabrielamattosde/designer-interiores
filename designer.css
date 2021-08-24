@@ -26,6 +26,7 @@ header li{
     list-style: none;
 }
 header ul li{
+    cursor: pointer;
     width: 140px;
     margin-left: 10px;
     padding: 0px 8px;
@@ -71,19 +72,19 @@ main {
     grid-area: 6;
 }
 .figure6{
-    grid-area:5;
-    
+    grid-area:16; 
 }
 .figure9{
     grid-area:14;
+    grid-row:span 6;
     
 }
 .figure10{
     grid-area: 6;  
 }
 .figure11{
-    grid-area: 14;
-    grid-row:span 6;
+    grid-area:14;
+   
 }
 
 
